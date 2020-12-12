@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Nandhini Gounder Portfolio">
+    <meta name="keywords" content="nandhini gounder, UX, design, portfolio, designer, nandhini, gounder">
+    <meta name="author" content="Nandhini Gounder">
+    <link href="assets/img/favicon.png" rel="icon" type="image/png">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <title>Nandhini Gounder</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+
+    <!-- Fonts and Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/material-kit.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!-- Javascript functions for project tiles -->
+    <script language="javascript">
+
+      function mouse4a(MyImage) {
+        MyImage.src = "assets/img/palfilter.png";
+      }
+      function mouse4b(MyImage) {
+        MyImage.src = "assets/img/pallogo.png";
+      }
+
+      function mouse3a(MyImage) {
+         MyImage.src = "assets/img/uwpiconfilter.png";
+       }
+      function mouse3b(MyImage) {
+         MyImage.src = "assets/img/uwpicon.jpg";
+      }
+
+      function mouse2a(MyImage) {
+         MyImage.src = "assets/img/cqfilter.png";
+       }
+      function mouse2b(MyImage) {
+         MyImage.src = "assets/img/cq.png";
+      }
+
+      function mouse1a(MyImage) {
+         MyImage.src = "assets/img/tigerfilter.png";
+       }
+      function mouse1b(MyImage) {
+         MyImage.src = "assets/img/tiger1.jpg";
+      }
+    </script>
+
+</head>
+
+<body>
+      <!-- Navigation -->
+    <nav class="navbar navbar-transparent navbar-absolute">
+        <div class="container">
+
+          <!-- Navigation styling for responsive design -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target="#navigation-example" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand logo" id="sitename" href="index.html">Nandhini Gounder</a>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navigation-example">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href=index.html><span id="highlight">home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html"><span id="highlight">about</span></a>
+                    </li>
+                    <li>
+                        <a href="assets/Nandhini_Gounder_Resume.pdf" target="_blank"><span id="highlight">resume</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Tiles -->
+    <div class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="brand2">
+                            <h1 id="tagline">Hello there! I'm a
+                              <a href="" class="typewrite txtext" data-period="2000"
+                              data-type='[ "UX Researcher", "Product Designer" ]'>
+                              <span class="wrap"></span></a>.
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Project Tiles -->
+    <div class="section section-tabs">
+        <div class="container port">
+            <div class="row" id="work">
+
+              <div class="col-sm-6" data-aos="fade-up">
+                  <div class="card card-nav-tabs">
+                      <div class="card-image1">
+                          <a href="pal.html"><img class="img" src="assets/img/pallogo.png" onMouseOver="mouse4a(this)" onMouseOut="mouse4b(this)"></a>
+                      </div>
+                  </div>
+              </div>
+
+                <div class="col-sm-6" data-aos="fade-up">
+                    <div class="card card-nav-tabs">
+                        <div class="card-image1">
+                            <a href="uwp.html"><img class="img" src="assets/img/uwpicon.jpg"
+                            onMouseOver="mouse3a(this)" onMouseOut="mouse3b(this)"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" data-aos="fade-up">
+                    <div class="card card-nav-tabs">
+                        <div class="card-image1">
+                            <a href="classquest.html"><img class="img" src="assets/img/cq.png" onMouseOver="mouse2a(this)" onMouseOut="mouse2b(this)"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" data-aos="fade-up">
+                    <div class="card card-nav-tabs">
+                        <div class="card-image1">
+                            <a href="graphics.html"><img class="img" src="assets/img/tiger1.jpg" onMouseOver="mouse1a(this)" onMouseOut="mouse1b(this)"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="section section-tabs">
+        <div class="container blog">
+              <p class="foot sharing-area text-center" id="cpy">© Nandhini Gounder 2020</p>
+        </div>
+    </div>
+
+    <div id="nanobar"></div>
+    <!-- End of displayed content -->
+
+    <!-- JS Files -->
+    <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/nanobar.min.js" type="text/javascript"></script>
+
+    <!-- Loading bar animation -->
+    <script>
+        var options = {
+            classname: 'my-class',
+            id: 'my-id',
+            target: document.getElementById('myDivId')
+        };
+
+        var nanobar = new Nanobar(options);
+
+        // animate loading bar to move
+        nanobar.go(30); // resizing bar to 30%
+        nanobar.go(75); // resizing bar to 75%
+
+        // resizing bar to 100% and end the animation
+        nanobar.go(100);
+    </script>
+
+    <!-- Functions for animations and effects -->
+    <script type="text/javascript">
+
+    //This function is from https://css-tricks.com/snippets/css/typewriter-effect/
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // inject css
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
+
+    <!-- Functions for scroll display animation -->
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 600,
+            once: true,
+        });
+    </script>
+
+</body>
+
+</html>
