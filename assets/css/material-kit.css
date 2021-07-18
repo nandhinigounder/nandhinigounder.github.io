@@ -6174,7 +6174,7 @@ h2.title {
   }
 }
 
-@media (max-width: 655px) {
+@media (max-width: 300px) {
   #sitename {
     font-size: 15px;
   }
