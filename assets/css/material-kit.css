@@ -6154,3 +6154,27 @@ h2.title {
 .kst1 {
   background: #FDFAFC;
 }
+
+.logoicon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 10px 0 0 10px;
+  padding: 0;
+}
+
+@media (max-width: 1025px) {
+  #sitename {
+    padding-left: 0px;
+  }
+
+  .logoicon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 655px) {
+  #sitename {
+    font-size: 15px;
+  }
